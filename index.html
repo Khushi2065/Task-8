@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fff0f0; 
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background: linear-gradient(to right, #e74c3c, #c0392b); 
+    }
+    .card {
+      border: none;
+      border-radius: 16px;
+      background-color: #ffe6e6; 
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+    }
+    .card-img-top {
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .btn-primary {
+      background-color: #ee5a49;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #a52a2a; 
+    }
+    footer {
+      background-color: #a60303; 
+      color: #fff;
+    }
+    footer a {
+      color: #ffcccb; 
+      transition: color 0.3s;
+    }
+    footer a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">My Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://i.ibb.co/RTKXs7K8/abstract-connected-dots-and-lines-concept-of-ai-technology-motion-of-digital-data-flow.jpg" class="card-img-top" alt="Tech">
+          <div class="card-body">
+            <h5 class="card-title">Power of Bootstrap</h5>
+            <p class="card-text">Discover how Bootstrap simplifies responsive web development with its intuitive grid system and pre-built UI components.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://i.ibb.co/p60JQSSt/1-1m8u-B-4s-OZBU3w-KQGm3-Ge-Q.png" class="card-img-top" alt="Design">
+          <div class="card-body">
+            <h5 class="card-title">Modern Web Design</h5>
+            <p class="card-text">Explore current design trends that blend minimalism, color theory, and typography for modern websites.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://i.ibb.co/fzk4K1d6/photo-1518770660439-4636190af475-auto-format-fit-crop-w-400-q-80.jpg" class="card-img-top" alt="Code">
+          <div class="card-body">
+            <h5 class="card-title">Clean JavaScript</h5>
+            <p class="card-text">Learn how to write clean and maintainable JavaScript code using ES6+ features and best practices.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center py-4">
+    <div class="container">     
+      <p class="mb-2">&copy; 2025 My Blog.All rights reserved.</p>
+      <div>
+        <a href="#" class="me-3"><i class="bi bi-facebook fs-5"></i></a>
+        <a href="#" class="me-3"><i class="bi bi-twitter fs-5"></i></a>
+        <a href="#" class="me-3"><i class="bi bi-instagram fs-5"></i></a>
+        <a href="#"><i class="bi bi-github fs-5"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
